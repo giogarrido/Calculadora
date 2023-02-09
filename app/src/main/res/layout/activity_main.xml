@@ -51,24 +51,28 @@
                 android:id="@+id/btnSiete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="7" />
 
             <Button
                 android:id="@+id/btnOcho"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="8" />
 
             <Button
                 android:id="@+id/btnNueve"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="9" />
 
             <Button
                 android:id="@+id/btnSuma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="clickOperacion"
                 android:text="+" />
         </TableRow>
 
@@ -80,24 +84,28 @@
                 android:id="@+id/btnCuatro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="4" />
 
             <Button
                 android:id="@+id/btnCinco"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="5" />
 
             <Button
                 android:id="@+id/btnSeis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="6" />
 
             <Button
                 android:id="@+id/btnResta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="clickOperacion"
                 android:text="-" />
 
         </TableRow>
@@ -110,24 +118,28 @@
                 android:id="@+id/btnUno"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="1" />
 
             <Button
                 android:id="@+id/btnDos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="2" />
 
             <Button
                 android:id="@+id/btnTres"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="3" />
 
             <Button
                 android:id="@+id/btnMultiplicar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="clickOperacion"
                 android:text="*" />
         </TableRow>
 
@@ -139,6 +151,7 @@
                 android:id="@+id/btnCero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="presionarBoton"
                 android:text="0" />
 
             <Button
@@ -157,6 +170,7 @@
                 android:id="@+id/btnDividir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="clickOperacion"
                 android:text="/" />
         </TableRow>
     </TableLayout>
